@@ -1,0 +1,427 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BLOOD COVENANT — Blood Magic</title><style>
+:root{
+  --paper:#f3ece5; --ink:#2c2022; --ink-soft:#746068;
+  --accent:#843b50; --accent-soft:#e9cdd3; --line:#d9c5c8; --panel:#eaddd7;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#211a1e; --ink:#f0e2df; --ink-soft:#bca4aa;
+    --accent:#dfa2b2; --accent-soft:#462c37; --line:#49333d; --panel:#2b2027;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#211a1e; --ink:#f0e2df; --ink-soft:#bca4aa;
+  --accent:#dfa2b2; --accent-soft:#462c37; --line:#49333d; --panel:#2b2027;
+}
+*{box-sizing:border-box;}
+html,body{margin:0; height:100%;}
+body{background:var(--paper); color:var(--ink); font-family:'Iowan Old Style','Georgia',serif;}
+a{color:var(--accent);}
+.layout{display:flex; min-height:100vh;}
+.sidebar{
+  width:250px; flex-shrink:0; background:var(--panel); border-right:1px solid var(--line);
+  padding:1.5rem 1rem; position:sticky; top:0; height:100vh; overflow-y:auto;
+}
+.brand{font-size:1.05rem; font-weight:700; margin:0;}
+.brand small{display:block; font-family:-apple-system,BlinkMacSystemFont,sans-serif; font-size:.72rem; color:var(--ink-soft); font-weight:400; margin-top:.25rem;}
+.chapter-label{font-family:-apple-system,BlinkMacSystemFont,sans-serif; font-size:.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.07em; color:var(--ink-soft); margin:1.5rem 0 .5rem 0;}
+.chapter-label:first-child{margin-top:0;}
+.navlink{
+  display:block; font-family:-apple-system,BlinkMacSystemFont,sans-serif; font-size:.84rem;
+  color:var(--ink); text-decoration:none; text-align:left;
+  background:var(--paper); border:1px solid var(--line); border-radius:8px;
+  padding:.55rem .7rem; margin:0 0 .4rem 1rem;
+}
+.navlink:hover{background:var(--accent-soft); border-color:var(--accent);}
+.navlink.active{background:var(--accent-soft); border-color:var(--accent); font-weight:600;}
+.themebtn{
+  margin-top:1.5rem; font-family:-apple-system,BlinkMacSystemFont,sans-serif; font-size:.72rem;
+  color:var(--ink-soft); background:none; border:1px solid var(--line); border-radius:4px; padding:.4rem .6rem; cursor:pointer;
+}
+main{flex:1; max-width:720px; margin:0 auto; padding:3rem 1.75rem 5rem; min-width:0;}
+h1{font-size:1.9rem; margin:0 0 .3rem;}
+.kicker{font-family:-apple-system,BlinkMacSystemFont,sans-serif; font-size:.78rem; color:var(--accent); margin-bottom:1.6rem;}
+h2{font-size:1.2rem; margin:1.8rem 0 .6rem; border-bottom:1px solid var(--line); padding-bottom:.3rem;}
+p{line-height:1.65; margin:0 0 1rem; max-width:66ch;}
+.lede{font-size:1.08rem; color:var(--ink-soft); max-width:60ch;}
+strong{color:var(--ink);} em{color:var(--accent);}
+table{border-collapse:collapse; width:100%; margin:1rem 0 1.5rem; font-family:-apple-system,BlinkMacSystemFont,sans-serif; font-size:.86rem;}
+th,td{text-align:left; padding:.55rem .6rem; border-bottom:1px solid var(--line); vertical-align:top;}
+th{color:var(--accent);}
+.overflow{overflow-x:auto;}
+.pagenav{display:flex; justify-content:space-between; margin-top:3rem; padding-top:1.5rem; border-top:1px solid var(--line); font-family:-apple-system,BlinkMacSystemFont,sans-serif; font-size:.85rem;}
+.pagenav a{color:var(--accent);}
+ul{padding-left:1.2rem;} li{margin-bottom:.4rem; line-height:1.55;}
+@media (max-width:720px){
+  .layout{flex-direction:column;}
+  .sidebar{width:100%; height:auto; max-height:60vh; position:relative; padding:1rem; border-right:none; border-bottom:1px solid var(--line);}
+  .navlink{margin-left:.75rem;}
+  main{padding:2rem 1.25rem 4rem;}
+}
+
+/* Formatting only; retain the reference's original text nodes. */
+h1{overflow-wrap:anywhere;text-transform:lowercase}h1::first-letter{text-transform:uppercase}
+.chapter-content h2{text-transform:lowercase;overflow-wrap:anywhere} .chapter-content h2::first-letter{text-transform:uppercase}
+.chapter-content p,.chapter-content li{overflow-wrap:anywhere}
+.source-list{list-style:none;padding-left:1rem}.source-list li{padding:0;text-indent:-1rem}
+.footer{margin-top:2rem;font:0.75rem/1.6 -apple-system,BlinkMacSystemFont,sans-serif;color:var(--ink-soft)}
+
+:root{--rule-ink:#426b67;--optional-ink:#805f24;--quiet-ink:#735b66;--soft-panel:#eddfd9}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--rule-ink:#a5c6bd;--optional-ink:#dfc18c;--quiet-ink:#c0a9b5;--soft-panel:#302229}}
+:root[data-theme="dark"]{--rule-ink:#a5c6bd;--optional-ink:#dfc18c;--quiet-ink:#c0a9b5;--soft-panel:#302229}
+main>h1{font-size:2.2rem;line-height:1.12;padding-bottom:1.25rem;margin-bottom:1.35rem;border-bottom:3px double var(--accent)}
+.kicker{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:.8rem}
+.chapter-content{font-size:1.03rem;line-height:1.75}
+.chapter-content p{line-height:1.75;margin-bottom:1.35rem}
+.chapter-content .lede{font-size:1.22rem;line-height:1.65;color:var(--ink-soft);padding-bottom:1.5rem;margin-bottom:1.6rem;border-bottom:1px solid var(--line)}
+.chapter-content .subsection{padding-top:1.6rem;margin-top:2rem;border-top:1px solid var(--accent)}
+.chapter-content .subsection h2{font-size:1.4rem;line-height:1.3;color:var(--accent);margin:0 0 1.15rem;padding-bottom:.7rem;border-bottom:1px solid var(--line)}
+.chapter-content .ink-term{color:var(--accent);font-weight:600}
+.chapter-content .ink-principle{color:var(--rule-ink);font-weight:600}
+.chapter-content .ink-flexible{color:var(--optional-ink);font-weight:500;font-style:italic}
+.chapter-content .reading-note{font-size:.94rem;line-height:1.7;color:var(--quiet-ink);border-left:2px solid var(--line);padding-left:1rem;margin-top:1.3rem}
+.chapter-content .key-statement{font-size:1.13rem;line-height:1.6;color:var(--rule-ink);padding:.8rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.chapter-content .subsection.optional{border-top:2px solid var(--optional-ink)}
+.chapter-content .subsection.optional h2{color:var(--optional-ink)}
+.chapter-content .subsection.caution{border-top:2px solid var(--accent);padding:1.2rem 1rem .1rem;background:var(--soft-panel)}
+.chapter-content .source-list{margin:1.1rem 0 1.6rem;padding:0;list-style:none;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.chapter-content .source-list li{font-size:.98rem;line-height:1.65;padding:.65rem .2rem .65rem 1rem;text-indent:-1rem;margin:0}
+.chapter-content .source-list li+li{border-top:1px dotted var(--line)}
+.chapter-content .source-list li:nth-child(even){font-size:1.01rem}
+.chapter-content>.source-list li{font-size:1.07rem}
+.chapter-content>.source-list li:nth-child(even){font-size:1.02rem}
+.chapter-label{padding-top:.8rem;border-top:1px solid var(--line);font-size:.67rem;letter-spacing:.1em}
+.footer{border-top:1px solid var(--line);padding-top:1rem}
+@media(max-width:720px){main>h1{font-size:1.9rem}.chapter-content .lede{font-size:1.16rem}.chapter-content .subsection h2{font-size:1.3rem}.chapter-content{font-size:1rem}.chapter-content .key-statement{font-size:1.08rem}}
+
+.bandit-return{display:flex;justify-content:space-between;align-items:center;gap:14px;position:relative;z-index:20;background:#20261f;color:#ecebdf;padding:12px 22px;font:11px/1.5 monospace;letter-spacing:.5px}.bandit-return a{color:#daee62;text-decoration:none}.bandit-return a:hover{text-decoration:underline}@media(max-width:480px){.bandit-return{font-size:9px;padding:12px}}</style></head><body><div class="bandit-return" aria-label="Collection navigation"><a href="../../index.html">BANDIT’S POWER SYSTEMS</a><a href="../../library.html">← Current Library</a></div><div class="layout"><aside class="sidebar" id="sidebar"><p class="brand">Blood Magic<small>A Complete Reference Document</small></p></aside><main><p class="kicker">The Five Disciplines</p><h1>BLOOD COVENANT</h1><div class="chapter-content"><section class="subsection standard"><h2>
+10.1 CORE IDENTITY</h2>
+
+<p class="lede"><strong class="ink-term">Blood Covenant</strong> is the discipline of creating supernatural agreements
+between participants. It makes agreed terms binding through <strong class="ink-term">Blood
+Magic</strong>, allowing violations to be detected and punished without requiring
+a human judge or continual human supervision.</p>
+
+<p>The discipline originated conceptually from people who attempted to
+stop a great war through contracts and agreements.</p>
+
+<p>The following mechanics are the completed version established in the
+design. They should be treated as retained rules unless a writer
+intentionally changes the system.</p>
+
+</section><section class="subsection standard"><h2>10.2 FORMING A COVENANT</h2>
+
+<p>To form a Covenant:</p>
+
+<ul class="source-list"><li>  1. The participants hold hands in a circle.
+</li><li>  2. All participants agree to the terms.
+</li><li>  3. Each participant contributes exactly one drop of their own blood.
+</li><li>  4. The participants activate the technique.
+</li><li>  5. Magical marks appear on the participants&#x27; palms.</li></ul>
+
+<p>Each person contributes their own drop. The contributions are not
+pooled as a single shared payment before the Covenant is formed.</p>
+
+</section><section class="subsection standard"><h2>10.3 COVENANT MARKS</h2>
+
+<p>Each participant receives a magical palm mark.</p>
+
+<p>The marks:</p>
+
+<ul class="source-list"><li>  - Can be hidden.
+</li><li>  - Cannot be damaged or removed.
+</li><li>  - Are visually identifiable as Covenant marks.
+</li><li>  - Do not reveal the Covenant&#x27;s rules to an ordinary observer merely
+    because the observer can see the mark.</li></ul>
+
+<p>A marked participant instinctively knows the rules of the Covenant.</p>
+
+<p>Someone using basic <strong class="ink-term">Blood Manipulation</strong> can reveal the rules by
+actively attempting to learn them.</p>
+
+<p>Tampering with a Covenant mark causes excruciating pain to the person
+interfering with it. This pain is the established global punishment for
+attempted mark tampering.</p>
+
+</section><section class="subsection standard"><h2>10.4 TERMS AND SPECIFICITY</h2>
+
+<p class="key-statement">Covenant terms must be extremely specific. They should be drafted with
+the care of a legal contract.</p>
+
+<p>The technique detects whether the terms have been violated. It does not
+require a person to monitor every participant or decide whether a
+violation occurred.</p>
+
+<p>Because the Covenant enforces the terms as written, imprecise or
+ambiguous wording can create problems. The exact consequences of
+ambiguous wording have not been separately defined; a writer may decide
+how their version handles it.</p>
+
+</section><section class="subsection caution"><h2>10.5 DETECTING AND PUNISHING VIOLATIONS</h2>
+
+<p>The Covenant magically detects violations of its terms. Accidental
+violations count as violations too, unless the terms themselves make
+an exception.</p>
+
+<p>Each violation can have an assigned punishment. Pain is the default
+punishment, but a Covenant can specify a different punishment.</p>
+
+<p>There are no supernatural limits on the kinds of punishment that can
+be specified beyond the laws of the setting&#x27;s world and what is
+physically possible under those laws.</p>
+
+<p>Two named punishment concepts were established:</p>
+
+<ul class="source-list"><li>  - PAIN: The default punishment for a violation or for tampering with
+    the mark.
+</li><li>  - BLOOD DIMINISHMENT: A punishment in which the offender loses blood
+    for violating the Covenant.</li></ul>
+
+<p>The precise implementation of punishments is determined by the terms
+and by the setting&#x27;s rules.</p>
+
+</section><section class="subsection standard"><h2>10.6 MEMBERSHIP AND JOINING</h2>
+
+<p>There is no fixed maximum number of participants. A Covenant can
+theoretically include an unlimited number of people.</p>
+
+<p>A new participant can join an existing Covenant by agreeing to its
+terms and contributing one drop of their own blood. They receive a
+Covenant mark and become bound by its rules.</p>
+
+<p>A participant may belong to multiple Covenants, provided the terms do
+not conflict in a way that makes simultaneous compliance impossible.</p>
+
+</section><section class="subsection standard"><h2>10.7 LEAVING, RELEASE, AND DEATH</h2>
+
+<p class="key-statement">A participant cannot simply choose to leave a Covenant.</p>
+
+<p>A participant remains bound until the Covenant&#x27;s duration or completion
+condition is met, or until they are released by a majority of the other
+participants.</p>
+
+<p>The person whose release is being considered does not vote on their own
+release.</p>
+
+<p>When released:</p>
+
+<ul class="source-list"><li>  - Their obligations end immediately.
+</li><li>  - Their associated punishments no longer apply.
+</li><li>  - Pending punishments are also removed.
+</li><li>  - Their original blood contribution remains part of the Covenant&#x27;s
+    history or structure; it is not returned merely because they are
+    released.</li></ul>
+
+<p>Death is treated exactly like release. A deceased participant is
+removed from the Covenant in the same way as a released participant.</p>
+
+<p>Covenants may be indefinite. They do not require a fixed end date if
+the terms do not specify one.</p>
+
+</section><section class="subsection standard"><h2>10.8 VOTING</h2>
+
+<p>Covenant decisions use one vote per participant.</p>
+
+<p>A majority is required. Abstentions are excluded from the count.</p>
+
+<p>A participant who abstains does not contribute a yes or no vote to the
+majority calculation.</p>
+
+</section><section class="subsection standard"><h2>10.9 THE BLOOD COIN</h2>
+
+<p>If a vote ends in a 50-50 tie, a literal <strong class="ink-term">Blood Coin</strong> forms from blood
+associated with that Covenant.</p>
+
+<p>The coin has two sides representing the two possible outcomes. It is
+flipped to decide the tied vote.</p>
+
+<p>The coin only forms when a tie occurs. After the result can be read, the
+coin vanishes.</p>
+
+<p class="key-statement">The result of the coin flip is final and cannot be challenged for that
+vote. However, the participants can hold a new vote later and change
+the decision through the ordinary voting process.</p>
+
+</section><section class="subsection standard"><h2>10.10 AMENDING TERMS</h2>
+
+<p>A majority can amend the Covenant&#x27;s rules.</p>
+
+<p>Changes take effect immediately. Participants can therefore become
+bound by terms that they did not personally vote for, provided the
+amendment passed under the Covenant&#x27;s voting rules.</p>
+
+<p>A change can also retroactively alter the punishment assigned to an
+already committed violation, as long as the punishment has not yet
+been carried out.</p>
+
+</section><section class="subsection standard"><h2>10.11 DISSOLUTION</h2>
+
+<p class="key-statement">A Covenant cannot simply be dissolved by a vote while two or more
+participants remain.</p>
+
+<p>It disappears when fewer than two participants remain.</p>
+
+<p>This means a Covenant can persist indefinitely while it retains at
+least two participants, subject to its terms, releases, deaths, and
+other established rules.</p>
+
+</section><section class="subsection standard"><h2>10.12 MULTIPLE COVENANTS</h2>
+
+<p class="key-statement">An individual can join multiple Covenants. The practical limitation is
+that the terms must not conflict in a way that prevents compliance.</p>
+
+<p>The discipline does not impose a separate universal maximum number of
+Covenants per participant.</p>
+
+</section><section class="subsection standard"><h2>10.13 COVENANTS AS SOCIAL OR LEGAL INFRASTRUCTURE</h2>
+
+<p>A world may use <strong class="ink-term">Blood Covenant</strong> as part of its legal or social system.
+For example, a society could teach Covenant to children and require
+citizens to enter a Universal <strong class="ink-term">Blood Covenant</strong> by law. The terms might
+restrict forbidden techniques or establish common obligations.</p>
+
+<p class="reading-note">This is an <strong class="ink-flexible">optional</strong> worldbuilding application, not a universal feature
+of every <strong class="ink-term">Blood Magic</strong> setting.</p>
+
+</section></div><nav class="pagenav" id="pagenav" aria-label="Page navigation"></nav><p class="footer"><a href="Blood_Magic_Complete_Reference.txt" download>Blood_Magic_Complete_Reference.txt ↓</a></p></main></div><script>const NAV_DATA = [
+  {
+    "file": "index.html",
+    "label": "Purpose And Design Philosophy",
+    "chapter": "Start Here"
+  },
+  {
+    "file": "rule-categories.html",
+    "label": "How To Read This Document: Rule Categories",
+    "chapter": "Start Here"
+  },
+  {
+    "file": "terminology.html",
+    "label": "Core Terminology",
+    "chapter": "Start Here"
+  },
+  {
+    "file": "origins.html",
+    "label": "Origins Of Blood Magic",
+    "chapter": "Foundations"
+  },
+  {
+    "file": "foundations.html",
+    "label": "Universal Foundations And General Rules",
+    "chapter": "Foundations"
+  },
+  {
+    "file": "general-manipulation.html",
+    "label": "General Blood Manipulation",
+    "chapter": "Foundations"
+  },
+  {
+    "file": "artillery.html",
+    "label": "Blood Artillery",
+    "chapter": "The Five Disciplines"
+  },
+  {
+    "file": "armament.html",
+    "label": "Blood Armament",
+    "chapter": "The Five Disciplines"
+  },
+  {
+    "file": "dominion.html",
+    "label": "Blood Dominion",
+    "chapter": "The Five Disciplines"
+  },
+  {
+    "file": "covenant.html",
+    "label": "Blood Covenant",
+    "chapter": "The Five Disciplines"
+  },
+  {
+    "file": "reliquary.html",
+    "label": "Blood Reliquary",
+    "chapter": "The Five Disciplines"
+  },
+  {
+    "file": "crystals.html",
+    "label": "Blood Crystals And Replenishment",
+    "chapter": "World & Practice"
+  },
+  {
+    "file": "learning.html",
+    "label": "Learning, Research, And Skill Development",
+    "chapter": "World & Practice"
+  },
+  {
+    "file": "society.html",
+    "label": "Blood Magic In Society",
+    "chapter": "World & Practice"
+  },
+  {
+    "file": "mana-interactions.html",
+    "label": "Interaction With Mana-Based Magic",
+    "chapter": "World & Practice"
+  },
+  {
+    "file": "historical-inspirations.html",
+    "label": "Historical Inspirations Of The Five Disciplines",
+    "chapter": "World & Practice"
+  },
+  {
+    "file": "rule-reference.html",
+    "label": "Consolidated Rule Reference",
+    "chapter": "Reference"
+  },
+  {
+    "file": "writer-defined-areas.html",
+    "label": "Writer-Defined Areas And Deliberate Flexibility",
+    "chapter": "Reference"
+  },
+  {
+    "file": "final-summary.html",
+    "label": "Final Design Summary",
+    "chapter": "Reference"
+  }
+];
+</script><script>
+(function(){
+  const here = location.pathname.split('/').pop() || 'index.html';
+  const sidebar = document.getElementById('sidebar');
+  let lastChapter = null;
+  NAV_DATA.forEach(p=>{
+    if(p.chapter !== lastChapter){
+      const h = document.createElement('div');
+      h.className = 'chapter-label';
+      h.textContent = p.chapter.replace(/&amp;/g,'&');
+      sidebar.appendChild(h);
+      lastChapter = p.chapter;
+    }
+    const a = document.createElement('a');
+    a.href = p.file;
+    a.className = 'navlink' + (p.file === here ? ' active' : '');
+    a.textContent = p.label;
+    sidebar.appendChild(a);
+  });
+  const themeBtn = document.createElement('button');
+  themeBtn.className = 'themebtn';
+  themeBtn.textContent = 'Toggle theme';
+  themeBtn.onclick = function(){
+    const root = document.documentElement;
+    const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try{ localStorage.setItem('blood-magic-theme', next); }catch(e){}
+  };
+  sidebar.appendChild(themeBtn);
+  try{
+    const saved = localStorage.getItem('blood-magic-theme');
+    if(saved) document.documentElement.setAttribute('data-theme', saved);
+  }catch(e){}
+
+  const idx = NAV_DATA.findIndex(p=>p.file===here);
+  const prev = idx>0 ? NAV_DATA[idx-1] : null;
+  const next = idx<NAV_DATA.length-1 ? NAV_DATA[idx+1] : null;
+  const pn = document.getElementById('pagenav');
+  if(pn){
+    pn.innerHTML =
+      (prev ? `<a href="${prev.file}">&larr; ${prev.label}</a>` : `<span></span>`) +
+      (next ? `<a href="${next.file}">${next.label} &rarr;</a>` : `<span></span>`);
+  }
+})();
+</script></body></html>

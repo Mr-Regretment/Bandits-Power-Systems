@@ -1,0 +1,1715 @@
+BLOOD MAGIC
+A Complete Reference Document
+
+Status: Compiled from the established design discussions
+Format: Plain-text reference
+
+======================================================================
+CONTENTS
+======================================================================
+
+1. Purpose and Design Philosophy
+2. How to Read This Document: Rule Categories
+3. Core Terminology
+4. Origins of Blood Magic
+5. Universal Foundations and General Rules
+6. General Blood Manipulation
+7. Blood Artillery
+8. Blood Armament
+9. Blood Dominion
+10. Blood Covenant
+11. Blood Reliquary
+12. Blood Crystals and Replenishment
+13. Learning, Research, and Skill Development
+14. Blood Magic in Society
+15. Interaction with Mana-Based Magic
+16. Historical Inspirations of the Five Disciplines
+17. Consolidated Rule Reference
+18. Writer-Defined Areas and Deliberate Flexibility
+19. Final Design Summary
+
+======================================================================
+1. PURPOSE AND DESIGN PHILOSOPHY
+======================================================================
+
+Blood Magic is a standalone magic system built around the manipulation
+and use of physical blood. It is not a renamed version of a conventional
+mana system, and it does not require the mechanics or terminology of a
+game system.
+
+The system has a foundational form of direct blood manipulation and five
+formal disciplines:
+
+  - General Blood Manipulation
+  - Blood Artillery
+  - Blood Armament
+  - Blood Dominion
+  - Blood Covenant
+  - Blood Reliquary
+
+General Blood Manipulation is the basic, foundational form rather than a
+sixth formal discipline. The five named disciplines each have a more
+specialised identity.
+
+The system is intended to be useful to writers. It therefore establishes
+clear default foundations while leaving many implementation details to
+the writer. A writer should be able to use the system as presented
+without having to invent every rule, but should also be able to adapt
+particular mechanics to suit a setting or story.
+
+The system is not exclusively a combat system. Its techniques can have
+applications in craftsmanship, manufacturing, medicine, architecture,
+transportation, communication, law, research, education, and ordinary
+daily life, depending on the world in which it exists.
+
+The five disciplines have distinct identities. They should not be
+interchangeable collections of generic powers. Their exact mechanics
+may be customised, but their defining concepts should remain recognisable
+unless a writer deliberately changes the system itself.
+
+No generic mana pool, Blood Unit, spell-slot system, core, arbitrary rank
+structure, or numerical reserve is required. Blood availability is
+understood in terms of actual blood and the particular technique being
+used, rather than a universal points currency.
+
+======================================================================
+2. HOW TO READ THIS DOCUMENT: RULE CATEGORIES
+======================================================================
+
+The system uses three categories of rules.
+
+A. UNIVERSAL FOUNDATIONS
+
+These are the broad principles that define the system as currently
+agreed. They describe what Blood Magic is at its most fundamental level.
+
+B. DEFAULT MECHANICS
+
+These are the standard assumptions and behaviours recommended for a
+normal version of the system. They provide a working baseline, but a
+writer may change or remove them.
+
+C. WRITER-DEFINED MECHANICS AND OPTIONAL APPLICATIONS
+
+These are details that deliberately remain open. The document may give
+examples of how they could work, including mechanics from earlier
+versions of the design, but those examples are not universal rules.
+
+Where a section describes a specific earlier implementation, it is
+identified as an example or historical prototype. Do not mistake a
+prototype's exact numbers or limitations for mandatory rules.
+
+A further distinction is important: a persistent magical effect is not
+the same thing as blood acting autonomously. For example, an object
+altered through Blood Armament can retain its altered properties without
+the practitioner continuously concentrating on it. That does not mean
+that a pool of blood can independently decide to move or perform a new
+action after the practitioner's control has ended.
+
+======================================================================
+3. CORE TERMINOLOGY
+======================================================================
+
+BLOOD MAGIC
+
+The overall system of techniques that use physical blood as their
+required medium.
+
+GENERAL BLOOD MANIPULATION
+
+The foundational ability to directly control blood as a substance. It is
+not one of the five formal disciplines, but is the basic form of Blood
+Magic.
+
+BLOOD CONTROL
+
+An informal description previously used for the direct, blood-bending
+aspect of General Blood Manipulation. The preferred system term is
+General Blood Manipulation.
+
+BLOOD ARTILLERY
+
+The discipline based on launching and directing blood as a projectile,
+with the ability to interact with mana-based magic in compatible
+settings.
+
+BLOOD ARMAMENT
+
+The discipline of infusing materials with blood so that crafted objects
+can gain personalised physical properties and a connection to their
+creator.
+
+BLOOD DOMINION
+
+The discipline that links a practitioner's movements to selected muscle
+groups in another person, causing those muscle groups to mirror the
+practitioner's corresponding movements.
+
+BLOOD COVENANT
+
+The discipline that creates supernatural agreements between participants
+and enforces the terms of those agreements.
+
+BLOOD RELIQUARY
+
+The discipline that allows a practitioner to store information about
+individuals they personally killed using Blood-based techniques and
+later reconstruct those individuals as compelled, non-resurrected
+recreations.
+
+BLOOD INFUSION
+
+A working term for introducing blood into a material as part of Blood
+Armament. It describes the process, not a separate discipline.
+
+INFUSED ARMAMENT
+
+A working term for an object that has undergone Blood Armament. Such an
+object remains the material object it was: for example, a steel sword
+infused with blood remains a steel sword containing blood. It is not
+automatically a separate kind of entity or a generic "blood construct."
+
+PRIMORDIAL BLOOD CRYSTAL
+
+One optional origin concept: a gigantic crystal formed from the remains
+of those who died in a catastrophic war. Its centre contains pure soul
+rather than ordinary stellar fuel.
+
+HEART-SHAPED BLOOD CRYSTALS
+
+Crystals associated with replenishing blood. In the established optional
+crystal concept, artificial and naturally occurring varieties have
+different effects.
+
+======================================================================
+4. ORIGINS OF BLOOD MAGIC
+======================================================================
+
+The origin of Blood Magic is writer-defined. Two developed possibilities
+are available. They are alternatives a writer can choose from, adapt, or
+combine; neither is a universal explanation.
+
+4.1 INTRINSIC BLOOD
+
+In this origin, blood naturally possesses supernatural properties.
+Blood Magic exists because blood itself has an inherent magical nature.
+
+In the version previously discussed, everyone can learn Blood Magic
+through practice. This is an example of how the origin could work, not a
+mandatory rule for every version of the system.
+
+A writer using this origin decides what makes blood supernatural, why
+its properties exist, whether those properties differ between
+individuals or species, and how people first discovered how to use them.
+
+4.2 THE PRIMORDIAL BLOOD CRYSTAL
+
+This origin is tied to the greatest war in human history.
+
+After the war, the blood, bodies, bones, and fragments of existence of
+most of humanity sank into wet, iron-rich earth. Over approximately one
+hundred years, under pressure, these remains combined and formed a
+gigantic crystal.
+
+The centre of the crystal resembles a tiny star. However, rather than
+containing hydrogen and helium as a normal star would, its centre
+contains pure soul.
+
+The crystal is extraordinarily durable. In the concept as described, it
+would take either a catastrophic strike to its core or approximately a
+quintillion years for its power to expire.
+
+The crystal is a source of soul power. Almost anyone descended from
+those whose remains contributed to it could potentially inherit the
+ability to manipulate blood. The possibility also extends to descendants
+of other species if the remains of those species contributed to the
+crystal.
+
+This origin leaves several matters open for a writer to decide:
+
+  - Whether and how living people can access the crystal's power
+    directly.
+  - Whether the crystal is aware or has any form of consciousness.
+  - Whether the crystal permanently changes the bloodlines of those
+    connected to it.
+  - Whether inherited ability is automatic, conditional, or variable.
+  - Whether other species have different forms of inheritance.
+  - How the crystal's soul power relates to individual blood and
+    individual techniques.
+
+These questions have not been given universal answers.
+
+4.3 THE ORIGIN DOES NOT DEFINE EVERY MECHANIC
+
+Even if a writer chooses one of these origins, the details of Blood
+Magic's operation remain separately customisable. The underlying
+supernatural nature of blood is writer-defined. A particular origin does
+not automatically settle every question about blood, materials,
+inheritance, control, or the five disciplines.
+
+======================================================================
+5. UNIVERSAL FOUNDATIONS AND GENERAL RULES
+======================================================================
+
+5.1 PHYSICAL BLOOD IS REQUIRED
+
+Every Blood Magic technique requires physical blood.
+
+This is a defining foundation of the system: Blood Magic uses blood as
+its medium. A technique may use blood in different ways, such as a
+projectile, an infusion, a connection, a mark, or a reconstructed body,
+but physical blood is required for the technique to function.
+
+The amount and source of blood required can vary by technique.
+
+The requirement for physical blood does not mean that every technique
+must use the practitioner's own blood. Whether a technique can use the
+blood of another person, the practitioner's own blood, or either source
+is a separate matter. The default position is that other people's blood
+can be used, although unfamiliar blood is generally harder to control.
+
+5.2 BLOOD AVAILABILITY IS A LIMITING FACTOR
+
+The amount of blood a practitioner can access is a central practical
+limitation.
+
+A technique's scale, duration, complexity, or demands may be constrained
+by the quantity of blood available. Different techniques can have
+different blood requirements. There is no universal numerical Blood
+Unit or fixed points pool.
+
+Writers may introduce alternative sources, replenishment methods, or
+other ways of managing blood availability. They may also change or
+remove the ordinary limitations if that better suits the setting.
+
+5.3 PHYSICAL STRAIN
+
+Using too much of one's own blood can physically weaken or harm the
+practitioner. Excessive blood loss can have serious bodily consequences.
+
+Overexerting one's ability to perform Blood Magic can also cause strain.
+The earlier design described this metaphorically as "spraining" one's
+blood: pushing beyond one's ability can cause pain, difficulty, or
+failure.
+
+The exact symptoms, thresholds, recovery, and consequences are not
+universal. Writers may define them differently. This rule is a default
+limitation, not a required medical model.
+
+5.4 ACTIVE CONSCIOUS CONTROL
+
+The default rule is that blood must be actively and consciously
+controlled to move or perform an action through direct manipulation.
+When the practitioner stops controlling it, the blood does not continue
+performing that action on its own.
+
+Writers may allow blood to retain instructions, act autonomously, or
+continue carrying out functions without active attention. Such behaviour
+is an optional variation, not the default.
+
+This rule does not prevent a technique from leaving behind a persistent
+magical result. An object whose physical properties have been altered by
+Blood Armament can remain altered without the practitioner continuously
+controlling the blood inside it. A Covenant can remain binding after the
+formation technique ends. Such persistence belongs to the effect of the
+technique; it does not mean that the blood independently chooses new
+actions.
+
+5.5 BLOOD CAN COME FROM DIFFERENT SOURCES
+
+By default, practitioners can manipulate blood from themselves or other
+people. A practitioner's own blood is generally more familiar and easier
+to work with.
+
+Other people's blood is usually less familiar. The comparison used in
+the design was like driving an unfamiliar car: the practitioner can
+operate it, but may not intuitively understand its particular behaviour
+as well as their own.
+
+This unfamiliarity is not necessarily active resistance by the blood's
+owner. It is a control and familiarity issue.
+
+Writers may change or remove the distinction between familiar and
+unfamiliar blood.
+
+5.6 BLOOD CAN ENTER AND REMAIN INSIDE MATERIALS
+
+The default system allows blood to enter materials and remain inside
+them. It can exert physical forces from within a material or object.
+
+This capability is especially important to Blood Armament, but is not
+limited to the discipline's defining identity. General Blood
+Manipulation can also interact with blood that has entered a material.
+
+The default model treats the blood as a substance that can occupy the
+inside of another material. The precise physical and chemical
+relationship between blood and the material is writer-defined.
+
+5.7 PENETRATING MATERIALS
+
+The developed default concept is that Blood Magic can force blood into
+materials, moving it through fibres, gaps, pores, or other available
+structures. Density and material structure affect how difficult this is.
+
+In the earlier design, magic could force absorption even where ordinary
+liquid would not naturally enter. More resistant or dense materials
+could be harder to penetrate.
+
+Writers can change whether all materials can be penetrated, whether
+some materials are immune or resistant, and how material structure
+changes the difficulty.
+
+5.8 DISTRIBUTION AND CONCENTRATION
+
+Blood can be evenly distributed or concentrated in particular areas.
+A practitioner is not necessarily restricted to keeping all controlled
+blood in one uniform mass.
+
+Blood can also enter a material or target from multiple points of
+contact, where a technique permits it.
+
+The degree of precision, number of independently controlled portions,
+and difficulty of complex distributions are writer-defined.
+
+5.9 THE PHYSICAL AND CHEMICAL NATURE OF BLOOD
+
+This is deliberately writer-defined.
+
+A writer decides whether blood remains physically and chemically
+ordinary blood, whether magic changes its physical or chemical
+properties, whether it can transform into other substances, and whether
+it possesses additional supernatural properties beyond being
+manipulable.
+
+The system does not require every setting to use the same answer.
+
+5.10 BLOOD AGE AND CONDITION
+
+The recommended default is that age alone does not automatically make
+blood unusable. Its physical condition may matter more than its age.
+
+Fresh, dried, contaminated, preserved, or otherwise altered blood may
+behave differently depending on the world's rules.
+
+Whether old blood retains magical usefulness, whether blood naturally
+deteriorates for magical purposes, and how preservation works are
+writer-defined.
+
+5.11 COMBINING BLOOD FROM DIFFERENT PEOPLE
+
+The recommended default is that blood from different people can be
+combined. There is no universal incompatibility that makes combination
+impossible.
+
+Controlling a mixture may be more difficult because it contains blood
+from multiple sources and may involve unfamiliar patterns of control.
+
+Writers decide whether the sources remain distinguishable, whether
+mixing changes the blood's properties, and how difficult combined
+control becomes.
+
+5.12 RESISTANCE AND COUNTERING
+
+As a default, another practitioner may be able to resist or interfere
+with attempts to manipulate their blood. The degree and nature of that
+resistance are not fully fixed.
+
+The design distinguishes between unfamiliarity and resistance:
+
+  - Unfamiliarity means a practitioner has less intuitive control over
+    another person's blood.
+  - Resistance means the target or another practitioner actively
+    opposes the manipulation, where the setting allows this.
+
+Writers decide whether non-practitioners can resist, how powerful
+resistance can be, and whether particular techniques bypass or overcome
+it.
+
+5.13 BLOOD AND ITS SOURCE
+
+The relationship between blood and the person or being it came from is
+entirely writer-defined.
+
+Blood may or may not retain a supernatural connection to its source.
+Possible forms of connection include biological information, memories,
+emotional traces, personality, behavioural tendencies, or a link to the
+original owner. None of these possibilities is compulsory.
+
+5.14 SPONTANEOUS USE AND PREPARATION
+
+Blood Magic can be used spontaneously. Mandatory preparation is not a
+universal requirement.
+
+Some techniques may require preparation, marks, infusions, agreements,
+or other prior steps. These requirements belong to the particular
+technique rather than to Blood Magic as a whole.
+
+5.15 MATERIAL LIMITATIONS AND PHYSICAL REALITY
+
+Blood Magic does not automatically imply that matter can be created
+from nothing. The earlier design treated the use of existing materials
+as the basis for crafting and reshaping objects.
+
+Whether a writer permits material creation, transmutation, or other
+exceptions is a worldbuilding decision. Blood Armament's established
+identity is the alteration of physical properties in existing crafted
+objects, not the automatic creation of matter.
+
+5.16 NO UNIVERSAL NUMERICAL RESOURCE POOL
+
+Blood availability is measured conceptually through the blood actually
+available and the demands of the technique. No standardised Blood Unit,
+mana pool, spell slot, or other numerical reserve is required.
+
+5.17 FORBIDDEN TECHNIQUES
+
+Manipulating blood inside living people is generally forbidden in the
+default social and legal framing. The prohibition is comparable in
+seriousness to a war crime in the setting that uses this assumption.
+
+This is a societal or legal principle, not an intrinsic magical barrier.
+Writers can change, weaken, or remove the prohibition. A setting might
+also have supernatural systems that enforce legal restrictions, such as
+a mandatory Blood Covenant.
+
+======================================================================
+6. GENERAL BLOOD MANIPULATION
+======================================================================
+
+6.1 IDENTITY
+
+General Blood Manipulation is the most basic form of Blood Magic. It is
+not one of the five formal disciplines, but it is the foundation on
+which the other disciplines are understood.
+
+It is direct control of blood as a fluid or substance. It is broadly
+similar to the idea of bloodbending: manipulating blood itself rather
+than invoking one of the specialised disciplines.
+
+It is not powerless merely because it is foundational. It is versatile
+and can produce a wide variety of physical results, provided the
+practitioner can control the blood with sufficient precision.
+
+6.2 DEFAULT CAPABILITIES
+
+General Blood Manipulation can include:
+
+  - Moving blood from one place to another.
+  - Changing its shape and distribution.
+  - Concentrating blood in selected areas.
+  - Forming fluid structures, including walls and barriers.
+  - Manipulating blood inside living organisms.
+  - Controlling blood that has entered or remains inside materials.
+  - Directly applying physical force through controlled blood.
+
+The precise limits and applications of these abilities can be changed
+by a writer.
+
+6.3 LIVING BLOOD
+
+General Blood Manipulation can control blood inside living people in
+the default mechanical conception.
+
+The fact that a technique can do this does not mean it is socially
+accepted. Manipulating living blood is generally forbidden in the
+default social framing, though writers may change that law or custom.
+
+The target's ability to resist, the practitioner's familiarity with the
+blood, and any relevant technique-specific rules influence how this
+works in a particular setting.
+
+6.4 SHAPING BLOOD
+
+A practitioner can shape blood into fluid forms, including barriers or
+walls. These remain blood-based forms rather than automatically
+becoming solid objects with the properties of another material.
+
+The stability, strength, size, duration, and physical behaviour of such
+forms are writer-defined.
+
+6.5 THE BOUNDARY WITH BLOOD ARMAMENT
+
+General Blood Manipulation can theoretically produce unusual physical
+results by exerting force or by using extraordinarily precise control.
+However, reshaping or changing the physical properties of non-blood
+materials through General Blood Manipulation is not its practical
+speciality.
+
+Blood Armament exists to solve that problem. It provides a specialised,
+repeatable way to infuse materials with blood and change their physical
+properties without requiring extreme precision from the practitioner.
+
+Blood Armament is the only formal discipline whose defining speciality
+is changing the physical properties of objects and materials.
+
+General Blood Manipulation is therefore versatile, while Blood Armament
+is the focused and practical method for material alteration. The two
+are not distinguished simply by one being stronger than the other.
+
+======================================================================
+7. BLOOD ARTILLERY
+======================================================================
+
+7.1 CORE IDENTITY
+
+Blood Artillery is the discipline of launching blood as a projectile and
+directing it after launch.
+
+Its defining ideas are:
+
+  - Blood is launched as a projectile.
+  - The practitioner can direct the projectile.
+  - The projectile can interact with mana-based magic in compatible
+    versions of the system.
+
+This identity is more important than any one projectile size, speed,
+range, or collision rule.
+
+7.2 THE PROJECTILE
+
+The basic concept is that a practitioner expels or otherwise uses blood,
+shapes it into a projectile, and launches it.
+
+The projectile remains blood-based. Its shape, size, speed, range,
+number, persistence, and exact physical behaviour are writer-defined.
+
+Other people's blood can be used in the broader system by default, but
+how easily unfamiliar blood can be shaped into an Artillery projectile
+is writer-defined.
+
+7.3 DIRECTION AND CONTROL
+
+The practitioner can direct the projectile. The extent of steering,
+precision, required concentration, and whether control can be shared or
+interrupted are writer-defined.
+
+7.4 COLLISIONS AND DISPERSAL
+
+The way a projectile behaves when it hits an obstacle or target is
+writer-defined. A version may have the blood bend around an obstacle,
+smash through it, disperse, split, or behave in another way.
+
+A version may allow the practitioner to choose which collision counts
+as the projectile's final collision. What happens at that collision is
+also writer-defined.
+
+7.5 INTERACTION WITH MANA-BASED MAGIC
+
+Blood Artillery can interact with mana-based magic. An established
+example is placing a mana spell inside a blood projectile so that the
+projectile carries the spell while travelling.
+
+The exact interface between the two systems remains writer-defined.
+The Artillery discipline does not inherently make Blood Magic dependent
+on mana.
+
+7.6 EARLIER PROJECTILE IMPLEMENTATION (OPTIONAL EXAMPLE)
+
+The following mechanics appeared in an earlier detailed version. They
+are preserved as an example of one possible implementation, not as
+mandatory rules:
+
+  - The practitioner expelled their own blood and shaped it into a
+    projectile.
+  - The projectile could take any shape within a bounding box no larger
+    than 0.75 metres on each side.
+  - The blood remained liquid and generally tended to come back together
+    after separating, subject to the particular collision or final-impact
+    rules of that implementation.
+  - When encountering a wall or obstacle, it could either smash through
+    or bend around it.
+  - The practitioner could freely steer it during flight.
+  - The practitioner selected which collision counted as the final
+    collision.
+  - At the final collision, the blood splashed apart and became
+    ordinary, uncontrolled blood.
+  - A larger projectile required more blood.
+  - The original version included a mana-spell payload, with no more
+    than one mana spell inside a projectile.
+  - The caster could activate the contained spell remotely at any point
+    during flight, or arrange for it to activate automatically on the
+    selected final collision if it had not already been activated.
+
+The exact projectile size, the one-spell limit, the use of the
+practitioner's own blood, speed, range, simultaneous projectile count,
+concentration, persistence, splitting, collision rules, and activation
+conditions are all writer-defined in the current broad design.
+
+7.7 MANA SPELL PAYLOAD: INTERFACE EXAMPLE
+
+The separate mana system previously discussed has a mechanism in which
+a practitioner contains a mana spell and embeds it in a compatible
+mystical object. The first activation by a user while using or being at
+the object consumes the stored activation without requiring the user's
+mana. That stored activation is used once; subsequent uses require the
+ordinary mana cost, cast at the object.
+
+Blood Artillery's possible use of this mechanic is an example of the
+two systems interacting. The exact compatibility rules, containment
+method, activation conditions, and number of spells per projectile
+remain writer-defined.
+
+======================================================================
+8. BLOOD ARMAMENT
+======================================================================
+
+8.1 CORE IDENTITY
+
+Blood Armament is the discipline of infusing materials with blood to
+give crafted objects personalised physical properties and a connection
+to their creator.
+
+It is an extension of conventional craftsmanship, not simply a method
+of conjuring magical weapons.
+
+Blood Armament is the only formal disciple whose defining speciality is
+changing the physical properties of objects and materials.
+
+8.2 DEFINING PROPERTY
+
+Blood Armament always allows blood to change an object's physical
+properties.
+
+This is the defining feature of the discipline. The particular
+properties changed, how they change, and any additional capabilities
+are writer-defined.
+
+8.3 INFUSION AND THE MATERIAL
+
+In the established default concept, blood enters a material and remains
+inside it. The object remains the object it originally was. A steel
+sword infused with blood is still a steel sword containing blood; it is
+not automatically a separate entity or a generic "blood construct."
+
+The blood can be manipulated inside the object. It can exert force from
+within and can alter the object's physical behaviour according to the
+rules chosen by the writer.
+
+The exact physical or chemical relationship between the blood and the
+material is writer-defined under the general rules of Blood Magic.
+
+8.4 PERSISTENCE
+
+A central established capability is that infused blood can remain in
+an object without the practitioner continuously concentrating on it.
+
+The resulting altered properties can persist as an effect of Blood
+Armament. This does not mean the blood must autonomously perform new
+actions. Any active movement or adjustment of blood inside the object
+can still require conscious control under the default rule.
+
+8.5 CONNECTION TO THE CREATOR
+
+Blood Armament gives the infused object a connection to its creator.
+The exact nature and strength of that connection are writer-defined.
+
+Possible applications include a sense of the object's location or
+condition, an advantage in controlling its infused blood, or the ability
+to recall it. None of these examples is compulsory in every version.
+
+8.6 WRITER-DEFINED PROPERTIES AND APPLICATIONS
+
+Writers decide:
+
+  - Which physical properties are altered.
+  - How those properties are altered.
+  - Whether the object gains additional capabilities.
+  - How much blood is needed for different objects.
+  - Whether blood quantity affects flexibility, hardness, or other
+    properties.
+  - Whether the object can become flexible, move, repair itself, reshape
+    itself, or be recalled.
+  - Whether the object can sense or communicate its location or
+    condition to its creator.
+  - Whether multiple people can contribute blood to one object.
+  - Whether another practitioner can take control of the infused blood.
+  - Whether infused blood can be replaced with blood from another
+    source.
+  - Whether blood can bridge damage or gaps in an object.
+  - Whether fragments can be reconstructed.
+  - How many objects can be infused or controlled at once.
+  - How attention is divided between several objects.
+  - Which materials are compatible and how easily they accept blood.
+  - How object size, intricacy, complexity, and material affect the
+    process.
+  - How much force an infused object can exert.
+  - How many special properties one object can possess.
+  - The range and conditions of any recall ability.
+  - Whether recall requires sight and whether weight or anchors matter.
+
+8.7 EARLIER MATERIAL-PROPERTY MODEL (OPTIONAL EXAMPLE)
+
+An earlier detailed implementation explored the following model. These
+are examples, not universal requirements:
+
+  - Blood penetrated materials through their fibres, pores, gaps, or
+    other structures; density and construction affected the difficulty.
+  - Blood remained inside the object as a separate liquid substance.
+  - More blood could make an object softer or more flexible, while less
+    blood could make it harder or stiffer.
+  - A flexible sword could be stiffened on command.
+  - Blood itself did not become rigid; the material supplied the
+    object's hardness.
+  - Internal blood channels could be created by skilled practitioners.
+  - Blood could move through those channels when consciously controlled.
+  - Blood could exert internal force, allowing an object to flex, twist,
+    move, or reshape.
+  - A healing-channel arrangement could allow an object to repair
+    damage. More blood could improve repair while reducing hardness.
+  - Reshaping had no established absolute limit in theory, but material,
+    size, and intricacy made a difference in practice.
+  - An object could be reshaped back to an earlier form.
+  - Multiple materials, such as wood, metal, and string, could be
+    combined; ease depended on the materials' structure and ability to
+    accept blood.
+  - Multiple practitioners could contribute blood to the same object.
+  - Another practitioner could potentially drain or take over infused
+    blood, while the current user could counter that attempt.
+  - If the blood escaped from an object, the properties it provided
+    could be lost. The blood might be siphoned back into the practitioner.
+  - Replacing an object's infused blood with blood from another source
+    could be difficult, like reverse-engineering an unfamiliar system.
+  - A damaged object could be bent back into shape. Fluid blood might
+    bridge a missing-material gap, although that area would be weaker.
+  - Fragments could preserve enough of an object's outline or geometry
+    to allow progressive reconstruction.
+  - Living materials such as wood, leather, or bone could be infused.
+  - Controlling multiple objects was possible, but divided attention
+    could make it difficult.
+
+8.8 EARLIER RECALL EXAMPLE (OPTIONAL)
+
+One earlier version explored a recall ability reminiscent of a weapon
+returning to its owner. In that example:
+
+  - Recall from 0 to 10 feet could work without sight.
+  - Recall from 10 to 20 feet required sight.
+  - Recall beyond 20 feet was unavailable.
+  - Heavier objects were more difficult to recall.
+  - Anchors or opposing forces could prevent or challenge recall.
+  - The creator had a faint intuitive sense of the object's location or
+    condition.
+
+These distances and restrictions are not universal. Recall itself is
+an optional application of the creator connection.
+
+8.9 FAMILIARITY AND CONTROL BY OTHERS
+
+An earlier model gave the creator an advantage because they were
+familiar with the arrangement of their own infused blood. Other
+practitioners could potentially manipulate the blood, but might initially
+control it poorly until they understood its arrangement.
+
+This is consistent with the general idea that unfamiliar blood or an
+unfamiliar arrangement is harder to control. Whether this applies in a
+particular version is writer-defined.
+
+======================================================================
+9. BLOOD DOMINION
+======================================================================
+
+9.1 CORE IDENTITY
+
+Blood Dominion is a discipline that connects a practitioner's movements
+to selected muscle groups in another person. Once activated, the
+selected muscle groups mirror the practitioner's corresponding
+movements.
+
+The original inspiration was a movement-mirroring idea. The blood mark
+is a physical mechanism for establishing the link; it is not an ordinary
+shadow and the technique does not manipulate a person's literal shadow.
+
+The detailed mechanics below are the version retained for the current
+design. They have deliberately been left unchanged for now.
+
+9.2 SELECTION OF MUSCLE GROUPS
+
+Before activation, the practitioner selects the specific muscle groups
+they want to affect.
+
+The practitioner touches the target and places physical blood marks on
+the selected muscle groups. Several marks can be placed before the
+technique is activated.
+
+The practitioner chooses the exact moment of activation. Activation
+locks in the selection. Marks placed after activation do not add new
+muscle groups to the technique.
+
+9.3 BLOOD CONNECTIONS
+
+Each mark is linked to the practitioner by a physical stream of blood.
+The streams connect the practitioner to the target's marked muscle
+groups.
+
+The streams can bend and stretch around obstacles, but only up to a
+limit. The exact maximum distance or degree of flexibility has not been
+specified.
+
+The technique affects one target at a time.
+
+9.4 MIRRORING
+
+Once activated, each selected muscle group perfectly mirrors the
+practitioner's corresponding movements.
+
+The practitioner must physically move the corresponding body parts
+for the target's muscles to mirror them. The practitioner does not
+simply issue an abstract instruction for the target to perform an
+unrelated action.
+
+The mirroring has no built-in adjustment for speed or intensity. The
+selected muscles copy the corresponding movements as defined by the
+technique.
+
+The target's nervous system is bypassed. The target does not need to
+voluntarily perform the movement for the marked muscles to move. The
+technique can therefore move muscles even where the target cannot
+voluntarily move them due to paralysis or another impairment affecting
+voluntary movement. The target's ordinary physical limitations still
+apply.
+
+9.5 RESISTANCE
+
+The target can oppose the imposed movement. Resistance is comparable to
+trying to move through thick water: the target can make the movement
+harder, but cannot simply break the technique completely through that
+opposition.
+
+Resistance increases blood consumption.
+
+9.6 FORCE AND BLOOD FLOW
+
+The controlling force is determined by the blood flow or amount supplied
+to the target, not by the practitioner's physical strength.
+
+The flow rate is automatically determined by the technique. The
+practitioner cannot manually adjust it at will.
+
+9.7 SHARED SUPPLY
+
+The blood supply is shared among all active marks.
+
+All active connections are supplied until the available supply becomes
+insufficient. There is no deliberate priority system in which the
+practitioner chooses which mark receives blood first.
+
+Higher total demand results in higher total consumption. Movement,
+small adjustments, and resistance can change the demand dynamically.
+Stillness lowers demand, although it may not eliminate it completely.
+
+If the practitioner has insufficient blood to keep every connection
+active, connections fail individually as their needs can no longer be
+met. The remaining connections can continue operating.
+
+9.8 INTERRUPTED CONNECTIONS
+
+If a physical blood stream is interrupted, supply to the corresponding
+mark stops. However, blood already in the stream continues travelling
+for a few seconds.
+
+When that remaining blood reaches the mark, the corresponding muscle
+group stops mirroring.
+
+The same grace period applies if the practitioner runs out of blood:
+residual blood already travelling through a connection can still reach
+its mark before the movement stops.
+
+Interrupting one stream affects only the corresponding muscle group.
+It does not automatically deactivate the other connections.
+
+9.9 FAILED MARKS AND REACTIVATION
+
+Once a connection fails, the old mark cannot be reactivated.
+A new mark would be required.
+
+However, marks placed after activation do not affect the active
+selection. The practitioner must therefore establish any required new
+marks before activating a new instance of the technique.
+
+When a connection fails, or when the practitioner ends the technique,
+the mark remains as ordinary blood. It no longer functions as an active
+Dominion mark.
+
+9.10 SUMMARY OF THE RETAINED MECHANICS
+
+  - One target at a time.
+  - The practitioner selects muscle groups before activation.
+  - Blood marks are physically placed on those groups.
+  - Activation locks in the selected groups.
+  - Each mark has a physical blood stream connecting it to the
+    practitioner.
+  - Streams can bend or stretch around obstacles up to an unspecified
+    limit.
+  - Selected muscles mirror the practitioner's corresponding
+    movements.
+  - The practitioner must make the corresponding movements physically.
+  - The target's nervous system is bypassed.
+  - Physical limitations still apply.
+  - The target can resist movement, increasing blood consumption, but
+    cannot simply break the technique through resistance.
+  - Blood demand is dynamic and automatically distributed.
+  - Each connection can fail individually if its supply is insufficient
+    or interrupted.
+  - Residual blood in a stream gives a short grace period after
+    interruption or depletion.
+  - Failed marks cannot be reused within the same activation.
+  - Marks become ordinary blood when the technique ends.
+
+======================================================================
+10. BLOOD COVENANT
+======================================================================
+
+10.1 CORE IDENTITY
+
+Blood Covenant is the discipline of creating supernatural agreements
+between participants. It makes agreed terms binding through Blood
+Magic, allowing violations to be detected and punished without requiring
+a human judge or continual human supervision.
+
+The discipline originated conceptually from people who attempted to
+stop a great war through contracts and agreements.
+
+The following mechanics are the completed version established in the
+design. They should be treated as retained rules unless a writer
+intentionally changes the system.
+
+10.2 FORMING A COVENANT
+
+To form a Covenant:
+
+  1. The participants hold hands in a circle.
+  2. All participants agree to the terms.
+  3. Each participant contributes exactly one drop of their own blood.
+  4. The participants activate the technique.
+  5. Magical marks appear on the participants' palms.
+
+Each person contributes their own drop. The contributions are not
+pooled as a single shared payment before the Covenant is formed.
+
+10.3 COVENANT MARKS
+
+Each participant receives a magical palm mark.
+
+The marks:
+
+  - Can be hidden.
+  - Cannot be damaged or removed.
+  - Are visually identifiable as Covenant marks.
+  - Do not reveal the Covenant's rules to an ordinary observer merely
+    because the observer can see the mark.
+
+A marked participant instinctively knows the rules of the Covenant.
+
+Someone using basic Blood Manipulation can reveal the rules by
+actively attempting to learn them.
+
+Tampering with a Covenant mark causes excruciating pain to the person
+interfering with it. This pain is the established global punishment for
+attempted mark tampering.
+
+10.4 TERMS AND SPECIFICITY
+
+Covenant terms must be extremely specific. They should be drafted with
+the care of a legal contract.
+
+The technique detects whether the terms have been violated. It does not
+require a person to monitor every participant or decide whether a
+violation occurred.
+
+Because the Covenant enforces the terms as written, imprecise or
+ambiguous wording can create problems. The exact consequences of
+ambiguous wording have not been separately defined; a writer may decide
+how their version handles it.
+
+10.5 DETECTING AND PUNISHING VIOLATIONS
+
+The Covenant magically detects violations of its terms. Accidental
+violations count as violations too, unless the terms themselves make
+an exception.
+
+Each violation can have an assigned punishment. Pain is the default
+punishment, but a Covenant can specify a different punishment.
+
+There are no supernatural limits on the kinds of punishment that can
+be specified beyond the laws of the setting's world and what is
+physically possible under those laws.
+
+Two named punishment concepts were established:
+
+  - PAIN: The default punishment for a violation or for tampering with
+    the mark.
+  - BLOOD DIMINISHMENT: A punishment in which the offender loses blood
+    for violating the Covenant.
+
+The precise implementation of punishments is determined by the terms
+and by the setting's rules.
+
+10.6 MEMBERSHIP AND JOINING
+
+There is no fixed maximum number of participants. A Covenant can
+theoretically include an unlimited number of people.
+
+A new participant can join an existing Covenant by agreeing to its
+terms and contributing one drop of their own blood. They receive a
+Covenant mark and become bound by its rules.
+
+A participant may belong to multiple Covenants, provided the terms do
+not conflict in a way that makes simultaneous compliance impossible.
+
+10.7 LEAVING, RELEASE, AND DEATH
+
+A participant cannot simply choose to leave a Covenant.
+
+A participant remains bound until the Covenant's duration or completion
+condition is met, or until they are released by a majority of the other
+participants.
+
+The person whose release is being considered does not vote on their own
+release.
+
+When released:
+
+  - Their obligations end immediately.
+  - Their associated punishments no longer apply.
+  - Pending punishments are also removed.
+  - Their original blood contribution remains part of the Covenant's
+    history or structure; it is not returned merely because they are
+    released.
+
+Death is treated exactly like release. A deceased participant is
+removed from the Covenant in the same way as a released participant.
+
+Covenants may be indefinite. They do not require a fixed end date if
+the terms do not specify one.
+
+10.8 VOTING
+
+Covenant decisions use one vote per participant.
+
+A majority is required. Abstentions are excluded from the count.
+
+A participant who abstains does not contribute a yes or no vote to the
+majority calculation.
+
+10.9 THE BLOOD COIN
+
+If a vote ends in a 50-50 tie, a literal Blood Coin forms from blood
+associated with that Covenant.
+
+The coin has two sides representing the two possible outcomes. It is
+flipped to decide the tied vote.
+
+The coin only forms when a tie occurs. After the result can be read, the
+coin vanishes.
+
+The result of the coin flip is final and cannot be challenged for that
+vote. However, the participants can hold a new vote later and change
+the decision through the ordinary voting process.
+
+10.10 AMENDING TERMS
+
+A majority can amend the Covenant's rules.
+
+Changes take effect immediately. Participants can therefore become
+bound by terms that they did not personally vote for, provided the
+amendment passed under the Covenant's voting rules.
+
+A change can also retroactively alter the punishment assigned to an
+already committed violation, as long as the punishment has not yet
+been carried out.
+
+10.11 DISSOLUTION
+
+A Covenant cannot simply be dissolved by a vote while two or more
+participants remain.
+
+It disappears when fewer than two participants remain.
+
+This means a Covenant can persist indefinitely while it retains at
+least two participants, subject to its terms, releases, deaths, and
+other established rules.
+
+10.12 MULTIPLE COVENANTS
+
+An individual can join multiple Covenants. The practical limitation is
+that the terms must not conflict in a way that prevents compliance.
+
+The discipline does not impose a separate universal maximum number of
+Covenants per participant.
+
+10.13 COVENANTS AS SOCIAL OR LEGAL INFRASTRUCTURE
+
+A world may use Blood Covenant as part of its legal or social system.
+For example, a society could teach Covenant to children and require
+citizens to enter a Universal Blood Covenant by law. The terms might
+restrict forbidden techniques or establish common obligations.
+
+This is an optional worldbuilding application, not a universal feature
+of every Blood Magic setting.
+
+======================================================================
+11. BLOOD RELIQUARY
+======================================================================
+
+11.1 CORE IDENTITY
+
+Blood Reliquary is the discipline that allows a practitioner to store
+information about an individual they personally killed using
+Blood-based techniques and later reconstruct that individual.
+
+The discipline was inspired in part by the idea of reconstructing
+individuals from stored information, but it is not genuine resurrection.
+
+11.2 ELIGIBILITY
+
+The practitioner must personally kill the individual using Blood-based
+techniques.
+
+It is not enough that the practitioner merely caused the person's
+death through an unrelated means or that the person was killed by
+someone else. The established core restriction is that the practitioner
+must personally kill the individual using Blood-based techniques.
+
+11.3 STORAGE
+
+The stored individual is held as recorded information in the
+practitioner's Reliquary or arsenal, not as a physically preserved
+person.
+
+The exact way the information is recorded and stored is writer-defined.
+
+Possible information sources include blood, the practitioner's memory,
+a combination of these, or another mechanism defined by the writer.
+No single source has been made universal.
+
+11.4 RECONSTRUCTION
+
+The practitioner can later reconstruct an individual from the stored
+information.
+
+Reconstruction is a readily available skill within Blood Reliquary by
+default. It does not require special external equipment, a separate
+ritual object, or an outside summoning device as a universal
+requirement.
+
+The exact method of reconstruction is flexible and can be defined by
+the writer.
+
+11.5 THE RECONSTRUCTED INDIVIDUAL
+
+A reconstructed individual is not genuinely resurrected. They are a
+magical recreation based on stored information.
+
+The established default characteristics are:
+
+  - They retain memories.
+  - They retain a slight echo of their original personality.
+  - They possess a perfect copy of their skills and techniques.
+  - They are compelled to obey the practitioner who reconstructed
+    them.
+  - They retain their original physical appearance and body.
+  - Their body and clothing have a faint, subdued blood-red tint.
+
+The exact degree of independent thought and action is writer-defined.
+The general principle is that they are compelled to obey the caster,
+but a writer decides how much personality, initiative, interpretation,
+and independent thought remain.
+
+11.6 PHYSICAL CAPABILITIES
+
+The recommended default is that reconstructed individuals have the
+physical capabilities they had originally, without automatic
+enhancement.
+
+A writer may decide otherwise, but enhanced strength, speed, endurance,
+or other attributes are not inherent to the discipline's default
+identity.
+
+11.7 NUMBER AND DURATION
+
+A stored individual can be reconstructed again; the discipline is not
+limited to a single reconstruction of that person. The number of
+individuals that can be stored or reconstructed, the capacity of the
+Reliquary, the number that can be active at once, and the duration of a
+reconstruction are writer-defined.
+
+The design does not impose a universal numerical capacity.
+
+11.8 DAMAGE AND RESTORATION
+
+Damage, repair, restoration, and the consequences of damage are
+writer-defined.
+
+An earlier suggested default was that reconstructed individuals could
+suffer ordinary bodily damage and would not automatically heal. This
+was a proposal rather than a mandatory rule.
+
+11.9 SUMMARY
+
+The defining concept is not immortality or true resurrection. It is the
+reconstruction of a person from stored information after the practitioner
+has personally killed that person using Blood-based techniques. The
+reconstruction retains memories, a trace of personality, and the
+person's skills, while remaining compelled to obey the practitioner.
+
+======================================================================
+12. BLOOD CRYSTALS AND REPLENISHMENT
+======================================================================
+
+12.1 STATUS
+
+Blood crystals are an established optional subsystem from earlier
+worldbuilding. They are not required for every version of Blood Magic.
+A writer may include them, alter them, or omit them.
+
+12.2 ARTIFICIAL HEART-SHAPED CRYSTALS
+
+The earlier concept allows a small heart-shaped crystal to be created
+by placing some of a person's blood in a jar with a stone or crystal.
+
+The difficulty of forming the stone or crystal influences the resulting
+replenishment effect. A more difficult-to-form material produces a
+greater replenishment effect in the described model.
+
+The exact process, time, limits, and degree of replenishment are not
+fully fixed as universal rules.
+
+12.3 NATURALLY OCCURRING HEART-SHAPED CRYSTALS
+
+Naturally occurring heart-shaped crystals are associated primarily with
+the area around the Primordial Blood Crystal in the version that uses
+that origin.
+
+They can:
+
+  - Fully replenish a practitioner's blood supply.
+  - Permanently increase the practitioner's maximum blood capacity.
+
+The earlier model described each natural crystal as adding one
+original maximum-capacity increment. If the original capacity is B and
+the practitioner has obtained n such crystals, the resulting capacity
+is B multiplied by (1 + n). This is additive growth by the original
+baseline, not repeated multiplication of the current capacity.
+
+The exact meaning of a person's maximum blood capacity, the number of
+crystals available, and the broader consequences of increased capacity
+remain open to the writer.
+
+12.4 NOT A MANA-POOL SYSTEM
+
+Even when crystals are included, they do not require Blood Magic to
+become a generic points-based resource system. They affect access to
+blood and the body's capacity as defined by the writer.
+
+======================================================================
+13. LEARNING, RESEARCH, AND SKILL DEVELOPMENT
+======================================================================
+
+13.1 LEARNING
+
+The recommended default is that learning Blood Magic combines theory,
+study, instinct, and practical experience.
+
+A person may understand the principles of Blood Magic without being
+capable of performing the techniques. Understanding and practical
+ability are not necessarily the same thing.
+
+Practice can improve control, precision, familiarity, and the ability
+to carry out complex techniques.
+
+13.2 TALENT AND ELIGIBILITY
+
+Whether everyone can learn Blood Magic, whether ability is inherited,
+whether natural talent matters, and whether some people cannot use it
+are writer-defined.
+
+The two origin concepts offer different possible explanations. The
+Intrinsic Blood version previously imagined that everyone could learn
+with practice. The Primordial Blood Crystal version connected ability
+to descent from those whose remains contributed to the crystal.
+Neither explanation is mandatory across all settings.
+
+13.3 RESEARCH AND INSTITUTIONS
+
+A setting may contain:
+
+  - Schools that teach Blood Magic.
+  - Research institutions.
+  - Libraries and written records.
+  - Historical discoveries and preserved techniques.
+  - Researchers who specialise in theory rather than practical use.
+  - Different schools of thought.
+  - Famous practitioners and legendary creations.
+
+Books and other records preserve knowledge about Blood Magic. Blood
+itself is not a universal storage medium for knowledge, memories, or
+written information; any such ability would be an additional
+writer-defined property or a specific technique.
+
+13.4 OLD AND NEW KNOWLEDGE
+
+Ancient knowledge can remain useful. Modern practitioners may also
+develop techniques or understanding that surpass earlier work.
+
+The system does not require a universal progression ladder or a fixed
+ranking structure for practitioners.
+
+======================================================================
+14. BLOOD MAGIC IN SOCIETY
+======================================================================
+
+14.1 NO UNIVERSAL SOCIAL STATUS
+
+There is no universal rule that Blood Magic must be feared, respected,
+rare, common, illegal, or restricted. Its social status depends on the
+setting.
+
+An earlier social model imagined Blood Magic as respected and used by
+a middle-ground portion of society: many people learned the basics but
+pursued other occupations rather than becoming dedicated specialists.
+This is an optional example, not a universal population rule.
+
+14.2 EVERYDAY APPLICATIONS
+
+Blood Magic can have practical applications beyond combat, including:
+
+  - Manufacturing and craftsmanship.
+  - Medicine and other health-related work, subject to the world's
+    ethical and legal rules.
+  - Architecture and construction.
+  - Multitasking and mechanical assistance.
+  - Communication.
+  - Transportation.
+  - Research, education, and specialist technical work.
+
+The five disciplines may be used in very different ways depending on
+the society. Blood Armament, for example, naturally connects to
+craftsmanship and manufacturing. Blood Covenant may become part of
+law, contracts, and public administration. Other disciplines may have
+civilian, professional, or specialist applications beyond their
+original inspirations.
+
+14.3 LAWS AND FORBIDDEN TECHNIQUES
+
+Manipulating blood inside living people is generally forbidden in the
+default social model. A society may regulate it through ordinary law,
+professional standards, religious or cultural practices, or magical
+agreements.
+
+An example discussed was a society in which everyone is taught Blood
+Covenant when young and is legally required to enter a Universal Blood
+Covenant restricting forbidden techniques. This is an example of how
+Covenant can become legal infrastructure, not a required feature of the
+system.
+
+14.4 PROFESSIONAL SPECIALISATION
+
+Many people may learn basic Blood Magic and then work in other
+occupations. Others may specialise in one of the disciplines, research,
+teaching, or a technical application.
+
+The system does not dictate which professions must exist or how common
+specialists are.
+
+======================================================================
+15. INTERACTION WITH MANA-BASED MAGIC
+======================================================================
+
+15.1 SEPARATE SYSTEMS
+
+Blood Magic and mana-based magic are distinct systems. Blood Magic
+requires physical blood; it does not automatically require mana.
+
+The two systems can interact in particular ways, but one does not
+replace the foundations of the other.
+
+15.2 BLOOD ARTILLERY
+
+Blood Artillery has an established broad capacity to interact with
+mana-based magic. A projectile may carry a contained mana spell in a
+compatible implementation.
+
+The exact mechanics, compatibility, spell count, activation method, and
+conditions are writer-defined.
+
+15.3 OTHER INTERACTIONS
+
+Whether other Blood disciplines can interact with mana magic, whether
+mana can alter the behaviour of blood, and whether particular objects
+or techniques can combine both systems are writer-defined.
+
+15.4 NO AUTOMATIC CONVERSION
+
+The fact that the systems can interact does not imply that blood is
+mana, that mana is blood, or that one resource can automatically be
+converted into the other.
+
+======================================================================
+16. HISTORICAL INSPIRATIONS OF THE FIVE DISCIPLINES
+======================================================================
+
+The five formal disciplines were originally connected to five broad
+occupational groups among those who died in a gigantic war. These
+historical inspirations explain their conceptual lineage, but do not
+have to determine every practitioner's role in a later society.
+
+  BLOOD ARTILLERY
+  Inspired by cannon firers and cannon operators.
+
+  BLOOD ARMAMENT
+  Inspired by warriors and artificers.
+
+  BLOOD DOMINION
+  Inspired by people who handled prisoners of war.
+
+  BLOOD COVENANT
+  Inspired by people who attempted to stop the war through contracts,
+  negotiations, and agreements.
+
+  BLOOD RELIQUARY
+  Inspired by medics and generals.
+
+These are the five historical inspirations. They are not mandatory
+career paths for modern practitioners.
+
+======================================================================
+17. CONSOLIDATED RULE REFERENCE
+======================================================================
+
+17.1 UNIVERSAL OR FOUNDATIONAL PRINCIPLES
+
+  1. Blood Magic is a system based on physical blood.
+  2. Every Blood Magic technique requires physical blood.
+  3. General Blood Manipulation is the foundational form of the system.
+  4. The system has five formal disciplines: Artillery, Armament,
+     Dominion, Covenant, and Reliquary.
+  5. Blood availability is a central default limitation.
+  6. Excessive use of one's own blood can physically weaken or harm the
+     practitioner.
+  7. Excessive exertion can cause strain, pain, or technique failure in
+     the default model.
+  8. Active manipulation requires conscious control by default.
+  9. A persistent technique effect does not automatically mean that
+     blood is autonomously acting.
+ 10. Other people's blood can be used by default, though it is
+     generally less familiar.
+ 11. General Blood Manipulation can directly control blood as a fluid.
+ 12. Blood Armament's defining property is changing the physical
+     properties of objects through blood infusion.
+ 13. Blood Artillery's defining concept is directed blood projectiles.
+ 14. Blood Dominion's defining concept is movement mirroring through
+     blood connections to selected muscle groups.
+ 15. Blood Covenant's defining concept is magically enforced
+     agreements.
+ 16. Blood Reliquary's defining concept is reconstruction from stored
+     information of people the practitioner personally killed using
+     Blood-based techniques.
+
+17.2 DEFAULT MECHANICS THAT WRITERS MAY CHANGE
+
+  - Blood can enter and remain inside materials.
+  - Blood can exert force from within materials.
+  - Material structure and density affect penetration difficulty.
+  - Blood can be distributed unevenly and concentrated in selected
+    areas.
+  - Blood from different sources can be combined.
+  - Blood age alone does not automatically make it unusable.
+  - Other practitioners may resist or interfere with manipulation of
+    their blood.
+  - Manipulating blood inside living people is generally forbidden by
+    default social and legal norms.
+  - Blood Magic can be used spontaneously; preparation is not always
+    mandatory.
+
+17.3 WRITER-DEFINED PRINCIPLES
+
+  - The underlying supernatural nature of blood.
+  - The origin of Blood Magic.
+  - Inheritance, eligibility, and natural talent.
+  - Blood's physical and chemical behaviour.
+  - Whether blood can transform into other substances.
+  - Whether blood retains a supernatural connection to its source.
+  - The exact degree of resistance and countering.
+  - The exact material compatibility rules.
+  - The exact limits of General Blood Manipulation.
+  - Most quantitative and operational limits of Blood Artillery.
+  - The particular physical properties and additional functions of
+    Blood Armament objects.
+  - The exact stream limits and other adjustable details of Dominion,
+    where not specified above.
+  - Reliquary storage, capacity, duration, damage, restoration, and
+    independence details.
+  - Whether blood crystals exist and how they work.
+  - How Blood Magic is learned and organised.
+  - How Blood Magic is treated by society and law.
+  - How Blood Magic combines with mana-based magic.
+
+======================================================================
+18. WRITER-DEFINED AREAS AND DELIBERATE FLEXIBILITY
+======================================================================
+
+The following list gathers details intentionally left open. Their
+absence is not an oversight; they are areas in which different writers
+may reasonably want different mechanics.
+
+18.1 SYSTEM-WIDE
+
+  - Whether everyone can learn Blood Magic.
+  - Whether practitioners inherit the ability.
+  - Whether particular species have different rules.
+  - Whether blood's supernatural properties are intrinsic or come from
+    an external source.
+  - Whether blood is chemically ordinary.
+  - Whether blood can become or transform into another substance.
+  - Whether blood retains memories, personality, emotion, or biological
+    information from its source.
+  - Whether blood can act autonomously.
+  - Whether blood can be preserved indefinitely.
+  - How much resistance targets can offer.
+  - Whether non-practitioners can resist manipulation.
+  - Whether every material can be penetrated.
+  - Whether materials can resist or nullify Blood Magic.
+  - Whether techniques require additional preparation.
+  - Whether Blood Magic can create matter or transmute materials.
+  - The precise physical consequences of overuse.
+
+18.2 GENERAL BLOOD MANIPULATION
+
+  - Maximum range and quantity.
+  - Precision and number of independently controlled portions.
+  - The strength and duration of fluid barriers or shapes.
+  - The limits of controlling blood inside living organisms.
+  - How resistance affects control.
+  - How easily blood can be moved through or inside different materials.
+
+18.3 BLOOD ARTILLERY
+
+  - Projectile dimensions and shape restrictions.
+  - Speed and range.
+  - Number of simultaneous projectiles.
+  - Required concentration and persistence.
+  - Splitting and recombination behaviour.
+  - Steering precision.
+  - Collision behaviour and final-collision rules.
+  - What happens when the projectile reaches its final collision.
+  - Blood quantity required.
+  - Whether other people's blood can be used for a particular version.
+  - Difficulty controlling unfamiliar blood.
+  - Number of mana spells that can be carried.
+  - Spell activation conditions.
+  - Compatibility between the projectile and the mana spell.
+
+18.4 BLOOD ARMAMENT
+
+  - Which object properties can be altered.
+  - How blood quantity relates to those properties.
+  - Flexibility, hardness, repair, reshaping, movement, and recall.
+  - Material compatibility and resistance.
+  - Blood channels and their complexity.
+  - Object size, intricacy, and force limits.
+  - How many objects can be infused or managed.
+  - How attention is divided.
+  - Whether multiple practitioners can contribute.
+  - Whether others can control, drain, or replace infused blood.
+  - Whether objects can be repaired or reconstructed from fragments.
+  - Creator connection, sensing, and recall conditions.
+
+18.5 BLOOD DOMINION
+
+  - The maximum distance and flexibility of the blood streams remain
+    unspecified.
+  - Exact limits on the physical movements that can be mirrored are
+    governed by the target's physical limitations; any additional
+    exceptions would be writer-defined.
+  - Any broader variations beyond the retained mechanics can be
+    customised, but the detailed current version is preserved in
+    Chapter 9.
+
+18.6 BLOOD COVENANT
+
+  - The detailed consequences of ambiguous or contradictory wording
+    have not been separately specified.
+  - The precise range of possible punishments depends on the setting's
+    laws and physical possibilities.
+  - Particular forms of terms, completion conditions, and duration are
+    determined by each Covenant.
+  - The social use of Covenants is worldbuilding-dependent.
+
+18.7 BLOOD RELIQUARY
+
+  - How information is stored.
+  - What information source is used.
+  - Capacity and number of stored individuals.
+  - Number of simultaneous reconstructions.
+  - Duration.
+  - Degree of independent thought and initiative.
+  - Damage, restoration, and healing.
+  - Exact reconstruction method.
+  - Whether physical capabilities can be altered from the original.
+
+18.8 BLOOD CRYSTALS
+
+  - Whether crystals exist in a given setting.
+  - How artificial crystals are made.
+  - The potency of different materials.
+  - The availability and effects of natural crystals.
+  - The practical meaning and consequences of increased maximum blood
+    capacity.
+
+======================================================================
+19. FINAL DESIGN SUMMARY
+======================================================================
+
+Blood Magic is a standalone system in which physical blood is the
+required medium for every technique. It is limited by blood availability
+and, in the default model, by the physical strain of excessive use.
+Direct blood manipulation requires conscious control by default, though
+persistent magical effects can remain after the practitioner stops
+actively manipulating the blood.
+
+General Blood Manipulation is the foundational form: versatile,
+direct control of blood as a fluid. It can move, shape, concentrate, and
+manipulate blood, including blood inside living organisms. It is not the
+practical specialist for changing the properties of non-blood materials.
+That role belongs to Blood Armament.
+
+The five formal disciplines are:
+
+  BLOOD ARTILLERY
+  Launches and directs blood projectiles. It can interact with
+  mana-based magic, while the exact projectile and spell-payload
+  mechanics remain writer-defined.
+
+  BLOOD ARMAMENT
+  Infuses crafted materials with blood, allowing blood to change their
+  physical properties and giving the objects a connection to their
+  creator. The particular properties and additional functions are
+  writer-defined.
+
+  BLOOD DOMINION
+  Uses physical blood marks and streams to link a practitioner's
+  movements to selected muscle groups in one target. The selected
+  muscles mirror the practitioner's corresponding movements under the
+  detailed rules set out in Chapter 9.
+
+  BLOOD COVENANT
+  Creates supernatural agreements whose specific terms are detected
+  and enforced by magic. Its rules cover formation, marks, punishments,
+  membership, release, voting, the Blood Coin, amendments, and
+  dissolution.
+
+  BLOOD RELIQUARY
+  Stores information about people the practitioner personally killed
+  using Blood-based techniques and later reconstructs them. These are
+  not true resurrections; the recreations retain memories, echoes of
+  personality, and skills, and are compelled to obey the practitioner.
+
+The system deliberately distinguishes its established foundations
+from mechanics that each writer may customise. Its origins, the deeper
+nature of blood, many exact limitations, and the wider social role of
+Blood Magic remain open to interpretation.
+
+The five disciplines retain distinct identities, while writers remain
+free to decide how those identities function in their own worlds.
+
+END OF DOCUMENT

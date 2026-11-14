@@ -6,6 +6,12 @@ This website is a place to read complete system guides: what their practitioners
 
 ## Current Library
 
+### Blood Magic
+
+> Blood Magic is a standalone magic system built around the manipulation and use of physical blood.
+
+The complete 19-section reference covers General Blood Manipulation and the five formal disciplines: Blood Artillery, Blood Armament, Blood Dominion, Blood Covenant, and Blood Reliquary. It distinguishes universal foundations, default mechanics, and writer-defined options.
+
 ### Transmatter Alchemy
 
 > Transmatter Alchemy (T-M) is a magic system built on a simple premise: what if alchemy were governed by real chemistry — and at its most advanced, real nuclear physics — with an internal energy source standing in for the equipment a laboratory would normally require.
@@ -23,4 +29,3 @@ The 21-page guide explores divine Sources, Techniques and Symbols, Templates, pr
 Each system has its own complete guide, with linked chapters for exploring its mechanics in detail. The original guide wording is preserved throughout.
 
 The collection grows as new systems are added. It is a personal reading library, not a submission platform or social network.
-
